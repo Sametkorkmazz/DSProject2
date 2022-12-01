@@ -89,6 +89,8 @@ namespace DSProject2
                     Console.WriteLine(string.Format("{0,-65}{1,-45}{2,-40}{3,-30}", milliPark.milliPark_Adı, milliPark.ilAdları, t, hektar));
                     yüzÖlçümToplamı += milliPark.yüzÖlçümü;
                 }
+
+                Console.WriteLine();
             }
 
             string y = $"{yüzÖlçümToplamı:n0} Hektar";
